@@ -1,0 +1,102 @@
+.banner{
+    background-image: url(../img/home-bg-img.png);
+}
+
+.mask-banner{
+    -webkit-mask-image: url('../img/Union.png');
+    mask-image: url('../img/Union.png');
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: inherit;
+    mask-position: inherit;
+}
+
+.mask-banner img{
+    width: 312px;
+    height: 312px;
+    object-fit: cover;
+    object-position: -50px -5px;
+}
+
+.section:nth-child(even){
+    background-color: #FFF7E0;
+}
+.item-between{
+    transform: translateY(-4rem);
+}
+.campus-rate > img{
+    width:25%;
+}
+.card > img {
+    object-fit: contain;
+}
+
+.course-items > .card:hover{
+    box-shadow: 5px 5px #334456;
+    transform: translate(-5px,-3px);
+}
+/* Mengatur posisi dan tampilan ikon */
+.splide__slide .icon {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    z-index: 9999;
+}
+/* Mengatur tampilan elemen lain dalam slide */
+.splide__slide .d-flex {
+    position: relative;
+    z-index: -1;
+}
+.splide__slide .d-flex:hover{
+    box-shadow: 5px 5px #334456;
+    transform: translate(-5px,-3px);
+}
+
+video {
+    width: 100%;
+    object-fit: contain;
+}
+video::-webkit-media-controls-enclosure {
+    display:none !important;
+}
+
+.play_video{
+    position:absolute;
+    width: 5rem;
+    height: 5rem;
+    top: 0;
+    right: 0;
+    margin-top: 4rem;
+    margin-right: 4rem;
+    z-index: 2!important;
+    border-radius: 50%;
+    background-color: #334456;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+#video_preview{
+    object-fit: contain;
+}
+
+#video_container:hover .play_video {
+    opacity: 1;
+}
+
+#video_container{
+    height: auto!important;
+}
+.testimoni .container{
+    background-image: url(../img/home-bg-img.png);
+}
+
+img.user-testi-img{
+    transform: translate(25%,50%);
+}
+.testimonis > .d-flex > .card-shadow{
+    background-color: #FFF7E0;
+}
+.links a{
+    text-decoration: none;
+}

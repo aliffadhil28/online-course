@@ -1,0 +1,23 @@
+.nav-text-inter {
+    font-family: 'Inter',Medium;
+    color: #334456;
+}
+.text-days {
+    font-family: 'Days One';
+    font-weight: bold;
+    mix-blend-mode:multiply;
+    color: #334456;
+}
+.text-inter{
+    font-family: 'Inter',Medium;
+    color: #6F6F6F;
+}
+.shadow-box{
+    box-shadow: 5px 5px #334456;
+}
+.vl{
+    border-left: 3px solid #334456;
+    height: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
